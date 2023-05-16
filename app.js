@@ -1,20 +1,21 @@
     const displayBlock = document.getElementById('display-block')
 
 function getNum(num){
-    displayBlock.innerText += num
+    displayBlock.value += num
 }
 
 function clearAll(){
-    displayBlock.innerText = " "
+    displayBlock.value = " "
 }
 
 function clearValue(){
-    const tempValue = displayBlock.innerText
-    displayBlock.innerText = displayBlock.innerText.slice(0,(tempValue.length-1))
+    const tempValue = displayBlock.value
+    displayBlock.value = displayBlock.value.slice(0,(tempValue.length-1))
     
 }
 
 function calculate(){
-    console.log(displayBlock.innerText)
-    displayBlock.innerText = eval(displayBlock.innerText)
+   displayBlock.value = eval(displayBlock.value);
+
 }
+

@@ -13,19 +13,18 @@
 
     <section class="d-flex justify-content-center align-items-center ">
         <div class="cal-external-body">
-            <div class="display-area d-flex align-items-center p-3 display-6 " id="display-block">
-            </div>
+            <input type="text" class="display-area d-flex align-items-center p-3 display-6 " id="display-block">
             <div class="cal-row d-flex">
                 <div class="num-block border-left-0" onclick="clearAll()">C</div>
                 <div class="num-block" onclick="getNum('.')">.</div>
                 <div class="num-block" onclick="clearValue()">AC</div>
-                <div class="num-block border-right-0" onclick="getNum('÷')">÷</div>
+                <div class="num-block border-right-0" onclick="getNum('/')">÷</div>
             </div>
             <div class="cal-row d-flex">
                 <div class="num-block border-left-0" id="seven-digit"  onclick="getNum('7')">7</div>
                 <div class="num-block" id="eight-digit" onclick="getNum('8')">8</div>
                 <div class="num-block" id="nine-digit" onclick="getNum('9')">9</div>
-                <div class="num-block border-right-0" id="multiply" onclick="getNum('×')">×</div>
+                <div class="num-block border-right-0" id="multiply" onclick="getNum('*')">×</div>
             </div>
             <div class="cal-row d-flex">
                 <div class="num-block border-left-0" onclick="getNum('4')">4</div>
@@ -48,6 +47,10 @@
         </div>
     </section>
  
+    <div>
+        <input type="text" name="" id="input-field" class="w-100 h-100">
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     
 </body>

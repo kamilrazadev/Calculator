@@ -17,6 +17,8 @@ section{
 }
 
 .display-area{
+    outline: none;
+    border: none;
     overflow-x: auto;
     overflow-y: hidden;
     width: 100%;
