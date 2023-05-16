@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%; 
+    height: 100vh;
+}
+
+.cal-external-body{
+    background-color: white;
+    height: 55%;
+    width: 30%;
+    border: 7px solid lightgray;
+}
+
+.display-area{
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    height: 20%;
+    border-bottom: 1px solid lightgray;
+}
+
+.display-area::-webkit-scrollbar{
+    width: 5px;
+}
+
+
+.num-block{
+    width: 25%;
+    height: 100%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.num-block:hover{
+    background-color: rgb(235, 235, 235);
+    cursor: pointer;
+}
+
+.cal-row{
+    width: 100%;
+    height: 16%;
+}
+
+.border-left-0{
+    border-left: none ;
+}
+
+.border-right-0{
+    border-right: none ;
+}
