@@ -9,6 +9,13 @@ section{
     height: 100vh;
 }
 
+h2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;    
+}
+
 .cal-external-body{
     background-color: white;
     height: 65%;
@@ -58,5 +65,17 @@ section{
 
 .border-right-0{
     border-right: none ;
+}
+
+@media  screen and (max-device-width: 1000px) {
+    .cal-external-body{
+        width: 50%;
+    }
+}
+
+@media  screen and (max-device-width: 500px) {
+    .cal-external-body{
+        width: 80%;
+    }
 }
 
